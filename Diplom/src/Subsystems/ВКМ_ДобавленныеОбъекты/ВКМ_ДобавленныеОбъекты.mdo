@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8694923b-84bf-4c6b-84f8-e301673b5c38">
+  <name>ВКМ_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.BKM_ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.BKM_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.BKM_ИдентификаторГруппыДляОповещения</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+  <content>Catalog.BKM_Сотрудники</content>
+  <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
+  <content>CalculationRegister.BKM_Удержания</content>
+  <content>InformationRegister.BKM_УсловияОплатыСотрудников</content>
+  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+  <content>Document.BKM_НачисленияЗарплаты</content>
+  <content>ChartOfCalculationTypes.BKM_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.BKM_Удержания</content>
+  <content>InformationRegister.BKM_ГрафикиРабот</content>
+  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
+  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
+  <content>Role.BKM_ДобавлениеИзменениеДокументаОбслуживанияКлиентов</content>
+  <content>Role.BKM_ИспользованиеОбработкиМассовоеСозданиеАктов</content>
+  <content>DataProcessor.BKM_ЗаполнениеГрафика</content>
+  <content>Role.BKM_КадровикРасчетчик</content>
+</mdclass:Subsystem>

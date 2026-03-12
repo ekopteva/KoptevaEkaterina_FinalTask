@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsPlacement>
+    <placementFragments>
+      <group>CommandGroup.BKM_Справочники</group>
+      <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.BKM_Документы</group>
+      <commands>Document.BKM_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.BKM_Регистры</group>
+      <commands>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>CommandGroup.BKM_Справочники</group>
+      <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
+      <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.BKM_Документы</group>
+      <commands>Document.BKM_ОбслуживаниеКлиента.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.BKM_Регистры</group>
+      <commands>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

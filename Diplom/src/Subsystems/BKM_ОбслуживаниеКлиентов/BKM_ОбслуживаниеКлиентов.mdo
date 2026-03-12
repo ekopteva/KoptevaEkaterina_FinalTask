@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="276f90fa-14b2-43be-b1a8-7656eb712631">
+  <name>BKM_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.CollaborationSystemExternalUser</picture>
+  </picture>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.BKM_УведомленияТелеграмБоту</content>
+  <content>Document.BKM_ОбслуживаниеКлиента</content>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+</mdclass:Subsystem>

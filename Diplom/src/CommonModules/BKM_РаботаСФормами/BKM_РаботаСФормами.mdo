@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d053c1a0-945b-41ba-b7eb-629f6db89d67">
+  <name>BKM_РаботаСФормами</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM работа с формами</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>
